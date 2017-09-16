@@ -1,0 +1,226 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".GruposActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#222222"
+        android:orientation="horizontal"
+        android:paddingBottom="17dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="17dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="22dp"
+                android:src="@drawable/nube_naranja" />
+
+            <TextView
+                android:id="@+id/nombrePrincipalChat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:text="Soci@l "
+                android:textColor="#f4f4f4"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="#3b3b3b"
+                    android:onClick="add"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Buscar amigos o grupos"
+                    android:textColor="#999999"
+                    android:textSize="13dp" />
+
+                <ImageView
+                    android:id="@+id/fotoSuperior"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:onClick="perfil"
+                    android:src="@drawable/perfil1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f4f4f4" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Crear un nuevo grupo"
+            android:textColor="#FF7321"
+            android:textSize="13dp" />
+</LinearLayout>
+
+    <LinearLayout
+                android:id="@+id/IngresoOcultar"
+                style="@style/redondeadoBlanco"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="Roboto"
+                    android:text="Llena todos los campos"
+                    android:textColor="#FF7321"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:id="@+id/nombreGrupo"
+                   
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:background="#efefef"
+                    android:ems="10"
+                    android:fontFamily="Roboto"
+                    android:hint="Nombre"
+                    android:padding="8dp"
+                    android:textSize="14dp" />
+                <EditText
+                    android:id="@+id/descripcionGrupo"
+                    
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="#efefef"
+                    android:ems="10"
+                    android:fontFamily="Roboto"
+                    android:hint="Descripcion"
+                    android:padding="8dp"
+                    android:textSize="14dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/image0"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginRight="4dp"
+                        android:background="#e1e1e1" />
+
+                    <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/image1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="4dp"
+                                android:onClick="img1"
+                                android:src="@drawable/perfil1" />
+
+                            <ImageView
+                                android:id="@+id/image2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="img2"
+                                android:src="@drawable/perfil2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/image3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="4dp"
+                                android:onClick="img3"
+                                android:src="@drawable/perfil3" />
+
+                            <ImageView
+                                android:id="@+id/image4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="img4"
+                                android:src="@drawable/perfil4" />
+                        </LinearLayout>
+                        
+                        
+
+                        
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/DatosIncorrectosText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="9dp"
+                    android:fontFamily="Roboto"
+                    android:gravity="center"
+                    android:text="Datos incorrectos!"
+                    android:textColor="#ff1f1f"
+                    android:textSize="13dp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/button1"
+                    style="@style/boton"
+                    android:layout_width="105dp"
+                    android:layout_gravity="center"
+                    
+                    android:onClick="crear"
+                    android:text="Crear" />
+            </LinearLayout>
+    
+</LinearLayout>

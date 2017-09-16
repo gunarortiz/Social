@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Soci@l</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_agregar">AgregarActivity</string>
+    <string name="title_activity_grupos">GruposActivity</string>
+    <string name="title_activity_agregar_grupo">AgregarGrupoActivity</string>
+    <string name="title_activity_perfil_persona">PerfilPersonaActivity</string>
+    <string name="title_activity_perfil_grupo">PerfilGrupoActivity</string>
+    <string name="title_activity_crear_grupo">CrearGrupoActivity</string>
+    <string name="title_activity_miembros">MiembrosActivity</string>
+
+</resources>

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/menu/miembros.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/menu/miembros.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/menu/agregar_grupo.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/menu/agregar_grupo.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/menu/agregar.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/menu/agregar.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/menu/splash.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/menu/splash.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/menu/grupos.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/menu/grupos.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/menu/perfil_persona.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/menu/perfil_persona.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/menu/chat.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/menu/chat.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/menu/perfil_grupo.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/menu/perfil_grupo.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/menu/crear_grupo.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/menu/crear_grupo.xml"
+    }
+]

@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1e1e1"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#222222"
+        android:orientation="horizontal"
+        android:paddingBottom="17dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="17dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="22dp"
+                android:src="@drawable/nube_naranja" />
+
+            <TextView
+                        android:id="@+id/nombrePrincipalChat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:text="Soci@l "
+                        android:textColor="#f4f4f4"
+                        android:textSize="14dp" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:onClick="add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textSize="13dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="10dp"
+                    android:background="#3b3b3b"
+                    android:textColor="#999999"
+                    android:text="Buscar amigos o grupos" />
+
+    
+
+                <ImageView
+                    android:id="@+id/fotoSuperior"
+                    android:onClick="perfil"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/perfil1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="#f4f4f4" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Mensajes"
+            android:textColor="#FF7321"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#444444"
+                
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:text="Mensajes"
+                android:textColor="#ffffff"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#333333"
+                android:onClick="grupos"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:text="Grupos"
+                android:textColor="#ffffff"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ListView
+            style="@style/list"
+            android:id="@+id/list_amigos"
+            android:background="#ffffff"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            
+            android:addStatesFromChildren="true"
+            android:animateLayoutChanges="true"
+            android:cacheColorHint="#FF7321" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

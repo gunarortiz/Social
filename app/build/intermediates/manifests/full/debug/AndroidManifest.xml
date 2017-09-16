@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.socil"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.socil.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.socil.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.socil.ChatActivity"
+            android:label="@string/title_activity_chat" >
+        </activity>
+        <activity
+            android:name="com.example.socil.AgregarActivity"
+            android:label="@string/title_activity_agregar" >
+        </activity>
+        <activity
+            android:name="com.example.socil.GruposActivity"
+            android:label="@string/title_activity_grupos" >
+        </activity>
+        <activity
+            android:name="com.example.socil.AgregarGrupoActivity"
+            android:label="@string/title_activity_agregar_grupo" >
+        </activity>
+        <activity
+            android:name="com.example.socil.PerfilPersonaActivity"
+            android:label="@string/title_activity_perfil_persona" >
+        </activity>
+        <activity
+            android:name="com.example.socil.PerfilGrupoActivity"
+            android:label="@string/title_activity_perfil_grupo" >
+        </activity>
+        <activity
+            android:name="com.example.socil.CrearGrupoActivity"
+            android:label="@string/title_activity_crear_grupo" >
+        </activity>
+        <activity
+            android:name="com.example.socil.MiembrosActivity"
+            android:label="@string/title_activity_miembros" >
+        </activity>
+    </application>
+
+</manifest>

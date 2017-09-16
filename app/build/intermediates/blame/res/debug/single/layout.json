@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/activity_perfil_persona.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/activity_perfil_persona.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/adapter_addgrupos.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/adapter_addgrupos.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/adapter_addamigos.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/adapter_addamigos.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/adapter_mensajes.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/adapter_mensajes.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/activity_perfil_grupo.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/activity_perfil_grupo.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/adapter_amigos.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/adapter_amigos.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/activity_miembros.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/activity_miembros.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/adapter_publicacion.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/adapter_publicacion.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/custom_layout_toast.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/custom_layout_toast.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/adapter_mensajesmio.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/adapter_mensajesmio.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/activity_chat.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/activity_crear_grupo.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/activity_crear_grupo.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/activity_agregar.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/activity_agregar.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/activity_grupos.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/activity_grupos.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/activity_agregar_grupo.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/activity_agregar_grupo.xml"
+    },
+    {
+        "merged": "/home/gunar/AndroidStudioProjects/Soci@l/app/build/intermediates/res/merged/debug/layout/adapter_grupos.xml",
+        "source": "/home/gunar/AndroidStudioProjects/Soci@l/app/src/main/res/layout/adapter_grupos.xml"
+    }
+]
